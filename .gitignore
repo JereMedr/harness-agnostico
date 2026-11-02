@@ -1,0 +1,43 @@
+# Environment variables and credentials
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.cert
+*.pfx
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Editor / IDE local state
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# Ephemeral task tickets (Token economy)
+# Task files are ephemeral and should not be persisted in git
+docs/tasks/*.md
+!docs/tasks/.gitkeep
+
+# Logs, caches and temp files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+temp/
+tmp/
+*.tmp
+*.bak
+__pycache__/
+*.py[cod]
+.cache/
